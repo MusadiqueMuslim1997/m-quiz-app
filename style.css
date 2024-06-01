@@ -1,0 +1,209 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #0d6db7;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    width: 100%;
+    height: 40px;
+}
+
+.icn {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.icn>a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.hero {
+    width: 100%;
+    margin-top: 60px;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.box {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    border-top: 1px solid #0d6db7;
+    border-bottom: 1px solid #0d6db7;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: cursive;
+    color: #0d6db7;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+   font-size: 1.3rem;
+    color: #0d6db7;
+    gap: 20px;
+}
+
+input {
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #0d6db7;
+    padding: 5px;
+    color: gray;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: silver;
+}
+
+.email {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0d6db7;
+    gap: 20px;
+}
+
+.password {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0d6db7;
+    gap: 20px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border: none;
+    border: 1px solid #0d6db7;
+    background-color: white;
+    color: #0d6db7;
+    cursor: pointer;
+}
+
+.btn1:active {
+    background-color: #0d6db7;
+    color: white;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:800px) {}
+
+@media screen and (max-width:750px) {}
+
+@media screen and (max-width:600px) {}
+
+@media screen and (max-width:500px) {
+    header {
+        padding: 10px 40px;
+    }
+
+    .logo>img {
+        width: 60px;
+    }
+
+    .icn>a {
+        font-size: 1.5rem;
+    }
+   .hero{
+    padding: 40px;
+   }
+   .box{
+    gap: 25px;
+   }
+   .head{
+    font-size: 1.5rem;
+   }
+   .user{
+    font-size: 1rem;
+   }
+   .email{
+    font-size: 1rem;
+   }
+   .password{
+    font-size: 1rem;
+   }
+   .btn1{
+    padding: 8px 15px;
+    font-size: 0.6rem;
+   }
+   .btn2{
+    padding: 8px 15px;
+    font-size: 0.6rem;
+   }
+   input{
+    font-size: 0.8rem;
+   }
+}

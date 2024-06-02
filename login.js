@@ -9,3 +9,10 @@ function signup(){
 
 let signbtn = document.getElementById('signbtn');
 signbtn.addEventListener('click', signup);
+
+
+function profile(){
+    window.location.assign('card.html')  
+}
+let log = document.getElementById('log');
+log.addEventListener('click', profile)

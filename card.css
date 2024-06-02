@@ -174,9 +174,23 @@ footer{
 
 @media screen and (max-width:800px) {}
 
-@media screen and (max-width:750px) {}
+@media screen and (max-width:750px) {
+    .mains{
+        justify-content: space-around;
+    }
+    .card{
+        width: 250px;
+    }
+}
 
-@media screen and (max-width:600px) {}
+@media screen and (max-width:600px) {
+    .mains{
+        justify-content: space-around;
+    }
+    .card{
+        width: 250px;
+    }
+}
 
 @media screen and (max-width:500px) {
     header {
@@ -193,6 +207,17 @@ footer{
 
     .main {
         padding: 40px;
+    }
+    .mains{
+        padding: 20px 40px;
+        justify-content: space-around;
+    }
+    .card{
+        width: 250px;
+        height: 260px;
+    }
+    footer{
+        font-size: 0.6rem;
     }
 
 }

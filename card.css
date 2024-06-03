@@ -150,7 +150,7 @@ header {
     color: #0d6db7;
     cursor: pointer;
 }
-.btn1:active{
+.btn1:hover{
     background-color: #0d6db7;
     color: white;
 }
@@ -208,14 +208,7 @@ footer{
     .main {
         padding: 40px;
     }
-    .mains{
-        padding: 20px 40px;
-        justify-content: space-around;
-    }
-    .card{
-        width: 250px;
-        height: 260px;
-    }
+    
     footer{
         font-size: 0.6rem;
     }

@@ -61,7 +61,68 @@ header {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.topic{
+    width: 100%;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+}
 
+.topic-name {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sub1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0d6db7;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.sub2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0d6db7;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.sub3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0d6db7;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.sub1:hover{
+    background-color: #0d6db7;
+    color: white;
+}
+.sub2:hover{
+    background-color: #0d6db7;
+    color: white;
+}
+.sub3:hover{
+    background-color: #0d6db7;
+    color: white;
+}
 
 
 
@@ -84,6 +145,9 @@ header {
         padding: 40px;
     }
     .title{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
+    }
+    .topic{
+        padding: 40px;
     }
 }

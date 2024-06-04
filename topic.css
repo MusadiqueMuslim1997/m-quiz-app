@@ -165,9 +165,18 @@ header {
         padding: 40px;
     }
     .title{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .topic{
-        padding: 40px;
+        padding: 10px 40px;
+    }
+    .sub1{
+        font-size: 1rem;
+    }
+    .sub2{
+        font-size: 1rem;
+    }
+    .sub3{
+        font-size: 1rem;
     }
 }

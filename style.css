@@ -155,13 +155,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-.btns{
-    width: 100%;
-    padding: 10px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 

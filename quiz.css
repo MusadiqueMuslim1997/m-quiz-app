@@ -95,7 +95,8 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    color: darkgreen;
+    font-weight: bolder;
+    color: green;
     border: 1px solid green;
     padding: 10px;
 

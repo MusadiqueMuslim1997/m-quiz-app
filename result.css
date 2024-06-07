@@ -47,6 +47,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
     /* flex-wrap: wrap;
     gap: 20px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
@@ -56,95 +57,111 @@ header {
 
 }
 
-.main-box {
+.result {
     width: 100%;
-    padding: 40px 80px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     border-top: 1px solid #0d6db7;
     border-bottom: 1px solid #0d6db7;
-    gap: 20px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-
-
-
 
 }
 
-.both {
+.headers {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-}
-
-.timer {
-
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-
-.que {
-
-    display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-size: 1.2rem;
-    font-weight: bolder;
+    color: #0d6db7;
+    padding: 15px;
+
 }
 
-.opt1 {
+.icns {
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 1rem;
-    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    color: green;
+    padding: 5px;
+
 
 }
 
-.time {
-    width: 80px;
-    height: 80px;
+.per {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.per-round {
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    border: 1px solid green;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
-    color: #0d6db7;
-    background-color: white;
-    border: 1px solid #0d6db7;
-    padding: 10px;
-
+    color: green;
 }
 
-.btn {
+.announce {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: green;
+    padding: 5px;
 }
 
-.btn1 {
+.tit {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 20px;
-    border: none;
-    background-color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    color: green;
+    padding: 5px;
+}
+
+.correct {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
     color: #0d6db7;
-    border: 1px solid #0d6db7;
-    cursor: pointer;
+    padding: 5px;
 }
 
-.btn1:active {
-    color: white;
-    background-color: #0d6db7;
+.total {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #0d6db7;
+    padding: 5px;
 }
-
-
 
 
 
@@ -164,29 +181,17 @@ header {
     .main {
         padding: 40px;
     }
-
-    .main-box {
-        padding: 40px;
+    .result{
+        gap: 10px;
+        padding: 10px;
     }
-
-    .btn1 {
-        font-size: 0.8rem;
-        padding: 6px 15px;
+    .headers{
+        font-size: 1rem;
     }
-
-    .opt1 {
-        font-size: 0.6rem;
+    .icns{
+        font-size: 2rem;
     }
-
-    .que {
-        font-size: 0.8rem;
-    }
-
-    .time {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        padding: 5px;
-        font-size: 0.8rem;
+    .tit{
+        font-size: 1rem;
     }
 }

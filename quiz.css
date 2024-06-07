@@ -47,7 +47,24 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+
+
+
+
+}
+
+.main-box {
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    border-top: 1px solid #0d6db7;
+    border-bottom: 1px solid #0d6db7;
     gap: 20px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
@@ -61,6 +78,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .timer {
@@ -96,8 +114,9 @@ header {
     justify-content: center;
     font-size: 1.2rem;
     font-weight: bolder;
-    color: green;
-    border: 1px solid green;
+    color: #0d6db7;
+    
+    border: 1px solid #0d6db7;
     padding: 10px;
 
 }
@@ -146,6 +165,9 @@ header {
     .main {
         padding: 40px;
     }
+    .main-box{
+        padding: 40px;
+    }
 
     .btn1 {
         font-size: 0.8rem;
@@ -153,11 +175,11 @@ header {
     }
 
     .opt1 {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .que {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .time {
@@ -165,6 +187,6 @@ header {
         height: 50px;
         border-radius: 50%;
         padding: 5px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }

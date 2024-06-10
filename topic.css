@@ -52,7 +52,7 @@ header {
 
 .title {
     width: 100%;
-    padding: 20px;
+    padding: 40px 20px;
     display: flex;
     align-items: center;
     background-color: white;
@@ -70,7 +70,7 @@ header {
 
 .topic-name {
     width: 100%;
-    padding: 20px;
+    padding: 40px 20px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -84,7 +84,7 @@ header {
     align-items: center;
     font-size: 1.2rem;
     color: #0d6db7;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #0d6db7;
     background-color: white;
     padding: 10px 5px;
     cursor: pointer;
@@ -95,7 +95,7 @@ header {
     align-items: center;
     font-size: 1.2rem;
     color: #0d6db7;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #0d6db7;
     background-color: white;
     padding: 10px 5px;
     cursor: pointer;
@@ -106,7 +106,7 @@ header {
     align-items: center;
     font-size: 1.2rem;
     color: #0d6db7;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #0d6db7;
     background-color: white;
     padding: 10px 5px;
     cursor: pointer;

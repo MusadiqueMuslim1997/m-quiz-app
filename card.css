@@ -52,7 +52,7 @@ header {
 
 .title {
     width: 100%;
-    padding: 20px;
+    padding: 40px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,7 @@ footer{
 }
 
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1110px) {
    .card{
     width: 300px;
    }

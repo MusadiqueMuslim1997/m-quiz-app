@@ -16,12 +16,12 @@ header {
     z-index: 1;
 }
 
-body {
+/* body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .logo {
     width: 80px;
@@ -158,9 +158,9 @@ footer {
     justify-content: center;
     padding: 20px 80px;
     background-color: #0d6db7;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
+    
+    
+
     color: white;
     font-family: cursive;
     font-size: 0.8rem;
@@ -171,7 +171,7 @@ footer {
 
 
 @media screen and (max-width:550px) {
-    header,footer {
+    header {
         padding: 10px 40px;
     }
 footer{

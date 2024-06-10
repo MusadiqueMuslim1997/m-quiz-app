@@ -16,6 +16,13 @@ header {
     z-index: 1;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo {
     width: 80px;
     display: flex;
@@ -144,14 +151,33 @@ header {
     background-color: #0d6db7;
 }
 
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    background-color: #0d6db7;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    color: white;
+    font-family: cursive;
+    font-size: 0.8rem;
+    text-align: center;
 
+}
 
 
 
 @media screen and (max-width:550px) {
-    header {
+    header,footer {
         padding: 10px 40px;
     }
+footer{
+    font-size: 0.6rem;
+    padding: 10px 40px;
+}
 
     .logo>img {
         width: 60px;

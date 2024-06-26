@@ -1,18 +1,30 @@
+import {auth,signInWithEmailAndPassword} from './firebase.js'
 
 
 
+function login(){
+    let userNAme = document.getElementById('userNAme');
+    let email = document.getElementById('email');
+    let password = document.getElementById('password');
 
-function signup(){
-    window.location.assign('signup.html')
+    signInWithEmailAndPassword(auth, email.value, password.value)
+  .then((userCredential) => {
+    
+    const user = userCredential.user;
+    window.location.assign('verify.html')
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    swal({
+        title: "Invalid Candidate!",
+        text: "You clicked the button!",
+        icon: "error",
+      });
+  });
+
 }
 
 
-let signbtn = document.getElementById('signbtn');
-signbtn.addEventListener('click', signup);
-
-
-function profile(){
-    window.location.assign('card.html')  
-}
-let log = document.getElementById('log');
-log.addEventListener('click', profile)
+let loginBtn = document.getElementById('loginBtn');
+loginBtn.addEventListener('click', login);

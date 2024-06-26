@@ -10,11 +10,12 @@ onAuthStateChanged(auth, (user) => {
 
         const uid = user.uid;
         youremail.innerHTML = user.email;
-        if (user.emailvarified == true) {
+        if (user.emailVerified == true) {
             verify.innerHTML = "Your Email is verified";
-            verify.style.color = 'green'
-            btn1.style.display = 'none';
+            verify.style.color = 'green';
             btn2.style.display = 'flex';
+            btn1.style.display = 'none';
+           
         }
         else {
             verify.innerHTML = "Your Email is not verify";

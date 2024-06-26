@@ -28,3 +28,10 @@ function login(){
 
 let loginBtn = document.getElementById('loginBtn');
 loginBtn.addEventListener('click', login);
+
+
+function sign(){
+    window.location.assign('signup.html');
+}
+let signbtn = document.getElementById('signbtn');
+signbtn.addEventListener('click',sign)

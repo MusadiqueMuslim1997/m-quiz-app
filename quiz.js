@@ -47,7 +47,7 @@ var htmlQuiz = [
         ans: 'str.toLowerCase()'
     },
     {
-        que: '6. var str = "I love cats!";  console.log(str.indexOf("cat"));',
+        que: '6. var str = "I love cats!";  console.log (str.indexOf("cat"));',
         opt1: '6',
         opt2: '7',
         opt3: '-1',

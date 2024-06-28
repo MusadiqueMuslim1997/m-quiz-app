@@ -113,23 +113,37 @@ let rander = () => {
     label_2.innerHTML = htmlQuiz[questionCount].opt2;
     label_3.innerHTML = htmlQuiz[questionCount].opt3;
     label_4.innerHTML = htmlQuiz[questionCount].opt4;
-    console.log(htmlQuiz[questionCount].opt4);
+    input_1.value = htmlQuiz[questionCount].opt1;
+    input_2.value = htmlQuiz[questionCount].opt2;
+    input_3.value = htmlQuiz[questionCount].opt3;
+    input_4.value = htmlQuiz[questionCount].opt4;
 
 
 }
 
 
 let deSelect = () => {
-for(let i = 0; i < answers.length; i++){
-    answers[i].checked = false;
-}
+    for (let i = 0; i < answers.length; i++) {
+        answers[i].checked = false;
+    }
 }
 
 let next = () => {
+    let checkAns = false;
+    for (let i = 0; i < answers.length; i++) {
+        if (answers[i].checked) {
+            checkAns = true;
+            if (answers[i].value === htmlQuiz[questionCount].ans) {
+                score++
+                console.log(score);
+            }
+        }
+    }
 
-
-
-    if (questionCount < htmlQuiz.length - 1) {
+    if (!checkAns) {
+        swal("Please select any one option");
+    }
+    else if (questionCount < htmlQuiz.length - 1) {
         questionCount++
         rander()
         deSelect()

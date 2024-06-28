@@ -12,6 +12,7 @@ function signUp() {
 
             const user = userCredential.user;
             window.location.assign('index.html')
+            
 
         })
         .catch((error) => {

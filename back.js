@@ -7,6 +7,20 @@ function back() {
 let backBtn = document.getElementById('back');
 backBtn.addEventListener('click', back)
 
-function quiz() {
-window.location.assign('quiz.html')
+function htmlQuizKey() {
+window.location.assign('htmlkey.html')
 }
+let quiz1 = document.getElementById('quiz1')
+quiz1.addEventListener('click',htmlQuizKey)
+
+function cssQuizKey() {
+    window.location.assign('csskey.html')
+    }
+    let quiz2 = document.getElementById('quiz2')
+    quiz2.addEventListener('click',cssQuizKey)
+
+    function jsQuizKey() {
+        window.location.assign('jskey.html')
+        }
+        let quiz3 = document.getElementById('quiz3')
+        quiz3.addEventListener('click',jsQuizKey)

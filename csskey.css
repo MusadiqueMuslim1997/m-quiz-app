@@ -108,7 +108,9 @@ input:focus {
     color: white;
     cursor: pointer;
 }
-
+.btn>button:active{
+    background-color: #0a5894;
+}
 @media screen and (max-width:500px) {
     header {
         padding: 10px 40px;

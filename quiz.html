@@ -19,7 +19,7 @@
                     class="fa-brands fa-github"></i></a></div>
     </header>
 
-    <section class="main">
+    <section class="main" id="quizSec">
 
         <div class="main-box">
 
@@ -42,17 +42,41 @@
                     Language</label>
             </div>
             <div class="btn">
-                <button class="btn1" id="next">Next</button>
+                <button class="btn1" id="next" onclick="next()">Next</button>
             </div>
 
 
         </div>
+
+
+
     </section>
 
 
+
+    <section class="mains" id="result">
+
+        <div class="result">
+
+            <div class="headers">RESULT</div>
+            <div class="icns"><i class="fa-solid fa-user-graduate"></i></div>
+            <div class="tit">Musadique Muslim</div>
+            <div class="per">
+                <div class="per-round" id="per">90%</div>
+            </div>
+            <div class="announce"  id="announce"></div>
+            <div class="correct" id="correctAns">Correct Answer: 9</div>
+            <div class="total" id="totalQue">Total Question: 10</div>
+
+
+
+        </div>
+
+    </section>
+
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-<script type="module" src="quiz.js"></script>
+<script  src="quiz.js"></script>
 
 </body>
 

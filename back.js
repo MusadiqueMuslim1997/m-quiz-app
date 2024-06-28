@@ -24,3 +24,11 @@ function cssQuizKey() {
         }
         let quiz3 = document.getElementById('quiz3')
         quiz3.addEventListener('click',jsQuizKey)
+
+        let key = document.getElementById('key');
+        if(key.value == '123'){
+            window.location.assign('quiz.html')
+        }
+        else{
+            swal('Invalid key Please Enter 123')
+        }

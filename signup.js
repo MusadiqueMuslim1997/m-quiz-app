@@ -1,11 +1,14 @@
 
 
 import { auth, createUserWithEmailAndPassword } from './firebase.js';
+// let userName = document.getElementById('userName').value;
+// localStorage.setItem('user',JSON.stringify({name:userName}));
+// let userData = JSON.parse(localStorage.getItem('user'))
 
 function signUp() {
     let email = document.getElementById('email');
     let password = document.getElementById('password');
-    let userNAme = document.getElementById('userNAme');
+   
 
     createUserWithEmailAndPassword(auth, email.value, password.value)
         .then((userCredential) => {
@@ -38,5 +41,4 @@ function sup() {
 
 let logbtn = document.getElementById('logbtn');
 logbtn.addEventListener('click', sup)
-
 
